@@ -10,7 +10,7 @@ var host = config.HOST;
 var makeOptions = function(host, msg, cookie) {
     if (!msg) {
         console.log('say something');
-        return null; 
+        return null;  
     }
     var url = 'http://www.simsimi.com';
     var url4 = 'http://106.187.43.200';
