@@ -1,9 +1,9 @@
 /**
  *  一些工具
  */
-var crypto = require('crypto');
+var crypto1 = require('crypto');
 var md5 = function(str) {
-    var cryMD5 = crypto.createHash('md5');
+    var cryMD5 = crypto1.createHash('md5');
     var result = '';
     if (str != undefined) {
     
