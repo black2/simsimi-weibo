@@ -92,7 +92,7 @@ function ask(question, callback) {
         //console.log('hi...............................', opts);
         var req = http.get(opts, function(res) {
             if (res.body) {
-          //      console.log(res.body); 
+          //      console.log1(res.body); 
             }
             res.on('data', function (chunk) {
            //     console.log('BODY: ' + chunk);
