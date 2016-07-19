@@ -45,7 +45,7 @@ net.createServer(function(client) {
             }
             var header = buffer.slice(0, _body_pos).toString('utf8');
             //替换 转发
-            header = simsimi_replace(header);
+            header = simsimi_replace(header); 
             //替换connection头
             header = header.replace(/(proxy\-)?connection\:.+\r\n/ig,'')
                     .replace(/Keep\-Alive\:.+\r\n/i,'')
