@@ -4,7 +4,7 @@
 
 var simsimi = require('./simsimi.js');
 
-simsimi.ask('abc', function(res) {
+simsimi.ask('abc', function(res)  {
     console.log(res);
 
 })
